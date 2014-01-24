@@ -1,0 +1,35 @@
+{
+  "family": "aliscript",
+  "name": "pop-validator",
+  "version": "1.0.1",
+  "description": "气泡提示表单校验组件",
+  "homepage": "https://github.com/aliscript/pop-validator",
+  "author": "昊祯 <harbin1053020115@gmail.com>",
+  "maintainers": [
+    "昊祯 <harbin1053020115@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliscript/pop-validator.git"
+  },
+  "bugs": {
+    "email": "harbin1053020115@gmail.com",
+    "url": "https://github.com/aliscript/pop-validator/issues"
+  },
+  "keywords": ["widget"],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["pop-validator.js"],
+    "alias": {
+        "$":        "$",
+        "core":     "arale/validator/0.9.6/core",
+        "position": "arale/position/1.0.1/position",
+        "base":     "alistyle/base/1.0.1/base.css",
+        "button":   "alistyle/button/1.0.1/button.css",
+        "form":     "alistyle/form/1.0.1/form.css",
+        "tiptext":  "alistyle/tiptext/1.0.1/tiptext.css"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

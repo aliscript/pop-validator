@@ -1,0 +1,1 @@
+define("aliscript/pop-validator/1.0.1/pop-validator",["arale/validator/0.9.6/core","$","arale/widget/1.1.1/widget","arale/base/1.1.1/base","arale/class/1.1.0/class","arale/events/1.1.0/events","arale/position/1.0.1/position"],function(a,b,c){a("arale/validator/0.9.6/core"),a("$"),a("arale/position/1.0.1/position");var d={};c.exports=d});
